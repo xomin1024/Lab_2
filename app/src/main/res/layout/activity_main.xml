@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:paddingTop="20dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        >
+        <TextView android:id="@+id/strike_label"
+            android:layout_height="wrap_content"
+            android:text="@string/strike_label"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="24sp"/>
+
+        <TextView android:id="@+id/strike_count"
+            android:layout_height="wrap_content"
+            android:text="@string/strike_count"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:paddingLeft="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="20dp"
+        >
+        <TextView android:id="@+id/ball_label"
+            android:layout_height="wrap_content"
+            android:text="@string/ball_label"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="24sp"/>
+
+        <TextView android:id="@+id/ball_count"
+            android:layout_height="wrap_content"
+            android:text="@string/ball_count"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:paddingLeft="20dp"/>
+    </LinearLayout>
+
+    <Button android:id="@+id/strike_button"
+        android:layout_width="325dp"
+        android:layout_height="60dp"
+        android:text="@string/strike_button_label">
+    </Button>
+    <Button android:id="@+id/ball_button"
+        android:layout_width="325dp"
+        android:layout_height="60dp"
+        android:text="@string/ball_button_label">
+    </Button>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        >
+        <TextView android:id="@+id/outs_label"
+            android:layout_height="wrap_content"
+            android:text="@string/outs_label"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="24sp"/>
+
+        <TextView android:id="@+id/outs_count"
+            android:layout_height="wrap_content"
+            android:text="@string/outs_count"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:paddingLeft="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>
